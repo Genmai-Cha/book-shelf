@@ -1,0 +1,73 @@
+body {
+    background-color: #EAF6FD;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+.header-btn {
+    width: 90px;
+    padding: 10px;
+    border-radius: 25px;
+    border: .5px solid #002A5B;
+    background-color: #EAF6FD;
+}
+
+.header-btn a {
+    color: #002A5B;
+}
+
+.header-btn.is-active {
+    background-color: #002A5B;
+}
+.header-btn.is-active a {
+    color: white;
+}
+
+.header-btn:not(:last-child) {
+    margin-right: 10px;
+}
+
+
+/* カード */
+.book-card-info {
+    display: grid;
+    width: 300px;
+    height: 100%;
+    border:.5px solid #002A5B;
+    border-radius: 5px;
+}
+
+.category-tag-box {
+    display: flex;
+    height: 30px;
+}
+.category {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #002A5B;
+    color: white;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.tag {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+}
+
+.title {
+    padding: 10px;
+    font-size:16px;
+}
