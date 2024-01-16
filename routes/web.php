@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\TopController;
+use App\Http\Controllers\RegisterController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,4 +19,6 @@ use App\Http\Controllers\TopController;
  * TOP 書籍一覧
  */
 Route::get('/', [TopController::class, 'index']);
-});
+
+// 登録
+Route::get('/register', [RegisterController::class, 'index']);
