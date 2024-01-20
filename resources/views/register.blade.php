@@ -1,6 +1,6 @@
 <x-common.layout>
     <x-slot:title>
-        登録
+        登します
     </x-slot>
     <div class="">
         <form action="">
